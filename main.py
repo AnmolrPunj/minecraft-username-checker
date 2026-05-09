@@ -1,10 +1,12 @@
 from mojang import API
 from mojang.errors import NotFound
+from time import sleep
 
 api = API()
 list_availble = []
 with open("usernames.txt") as names:
     for values in names:
+        sleep(1)
         name = values.strip()  
 
         try:
