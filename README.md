@@ -1,5 +1,3 @@
-# minecraft-username-checker
-Bulk Minecraft username availability checker using the Mojang API
 # Minecraft Username Checker
 
 A lightweight Python tool for checking Minecraft username availability using the Mojang API.
