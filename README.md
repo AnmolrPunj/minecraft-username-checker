@@ -22,14 +22,14 @@ The script reads usernames from a text file, checks whether they are taken, and 
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/minecraft-username-checker.git
+git clone https://github.com/AnmolrPunj/minecraft-username-checker.git
 cd minecraft-username-checker
 ```
 
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install mojang
 ```
 
 ---
@@ -60,37 +60,6 @@ Available usernames will be written to:
 output.txt
 ```
 
-Example console output:
-
-```text
-steve is a taken username.
-coolname123 is not a taken username.
-```
-
----
-
-## Project Structure
-
-```text
-minecraft-username-checker/
-│
-├── main.py
-├── usernames.txt
-├── output.txt
-├── requirements.txt
-├── LICENSE
-└── README.md
-```
-
----
-
-## Requirements
-
-- Python 3.10+
-- Internet connection
-- Mojang Python package
-
----
 
 ## Disclaimer
 
